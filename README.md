@@ -5,6 +5,7 @@
 - 进入配置界面make menuconfig  
 - 获取配置内容./scripts/diffconfig.sh
 - 配置内容获取更新完.config文件后ctrl+d开始编译
+- 修改压缩率 配置内容 Target Images  ---> [*] squashfs  --->(256) Block size (in KiB)
 
 # Actions-OpenWrt
 
