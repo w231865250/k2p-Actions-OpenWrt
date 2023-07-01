@@ -1,9 +1,10 @@
 **English** | [中文](https://p3terx.com/archives/build-openwrt-with-github-actions.html)
 
 # 命令说明 
-云编译进入ssh后ctrl+c  命令行cd openwrt  
-进入配置界面make menuconfig  
-获取配置内容./scripts/diffconfig.sh  
+- 云编译进入ssh后ctrl+c  命令行cd openwrt  
+- 进入配置界面make menuconfig  
+- 获取配置内容./scripts/diffconfig.sh
+- 配置内容获取更新完.config文件后ctrl+d开始编译
 
 # Actions-OpenWrt
 
