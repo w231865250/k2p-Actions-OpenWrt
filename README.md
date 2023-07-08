@@ -8,12 +8,12 @@
 - 修改压缩率 配置内容 Target Images  ---> [*] squashfs  --->(256) Block size (in KiB)
 
 - ---
-修改默认主题为argon
-sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' feeds/luci/collections/luci/Makefile
-修改密码为空，自定义名称
-ZZZ="package/lean/default-settings/files/zzz-default-settings"
-sed -i '/CYXluq4wUazHjmCDBCqXF/d' $ZZZ
-sed -i "s/OpenWrt /######################## compiled in $(TZ=UTC-8 date "+%Y.%m.%d") @ OpenWrt /g" $ZZZ（#为自定义内容）
+修改默认主题为argon  
+sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' feeds/luci/collections/luci/Makefile  
+修改密码为空，自定义名称  
+ZZZ="package/lean/default-settings/files/zzz-default-settings"  
+sed -i '/CYXluq4wUazHjmCDBCqXF/d' $ZZZ  
+sed -i "s/OpenWrt /######################## compiled in $(TZ=UTC-8 date "+%Y.%m.%d") @ OpenWrt /g" $ZZZ（#为自定义内容）  
 
 转载自https://www.bilibili.com/video/BV1J44y1y7iE/?spm_id_from=333.999.0.0&vd_source=b5972140249173e838182cee62029037
 
